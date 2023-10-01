@@ -1,3 +1,11 @@
+package com.example.pharmacy.controller;
+
+import com.example.pharmacy.model.Medicine;
+import org.springframework.web.bind.annotation.*;
+
+import java.util.ArrayList;
+import java.util.List;
+
 @RestController
 @RequestMapping("/medicines")
 public class MedicineController {

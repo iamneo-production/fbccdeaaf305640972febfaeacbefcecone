@@ -1,3 +1,5 @@
+package com.example.pharmacy.model;
+
 public class Medicine {
     private int medicineId;
     private String medicineName;
@@ -15,8 +17,6 @@ public class Medicine {
         this.quantity = quantity;
         this.description = description;
     }
-
-    // Getters and Setters
 
     public int getMedicineId() {
         return medicineId;
