@@ -1,4 +1,3 @@
-package com.example.pharmacy.model;
 
 public class Medicine {
     private int medicineId;
